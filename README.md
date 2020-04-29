@@ -14,6 +14,7 @@ Reboot
   4. Akshay Ganesa
 
 **Topic chosen**
+
 5. Reinforcement Learning agent in Wumpus world
 
 **contributions of each team member**
