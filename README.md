@@ -17,7 +17,7 @@ Reboot
 
 5. Reinforcement Learning agent in Wumpus world
 
-**contributions of each team member**
+**Contributions of each team member**
 
 
-**instructions to run your code from scratch**
+**Instructions to run code from scratch**
