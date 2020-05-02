@@ -56,7 +56,7 @@ Python Installed
 1. Dowload the Project.
 2. Extract the project
 3. Run the project.
-4. Execution command: python environment.py --ngames 150 --niter 40 --gridsize 4 4 --numwumpus 1 --numholes 3 --bullets 3
+4. Execution command:python environment.py --ngames 150 --niter 40 --gridsize 4 4 --numwumpus 1 --numholes 3 --bullets 3
 5. For executing the Hybrid Logic Agent in a noisy action model. Just run "python wumpus.py -y"
 
 Noise: The agent goes Forward 90% of the times And takes either a left or a right turn 5% of the times respectively.
