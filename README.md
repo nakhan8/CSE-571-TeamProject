@@ -18,7 +18,7 @@ Reboot
 
 Topic 5: Reinforcement Learning agent in Wumpus world
 
-Github Link: https://github.com/nakhan8/CSE-571-TeamProject/edit/master
+Github Link: https://github.com/nakhan8/CSE-571-TeamProject
 
 **Contributions of each team member**
 
