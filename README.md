@@ -1,9 +1,9 @@
 # CSE-571-TeamProject
 
-1. **Team name**
+**Team name**
 Reboot
 
-2. **Team Members**
+**Team Members**
 
   1. Sahit Jain
 
@@ -13,11 +13,11 @@ Reboot
 
   4. Akshay Ganesa
 
-3. **Topic chosen**
+**Topic chosen**
 
 Topic 5: Reinforcement Learning agent in Wumpus world
 
-4. **Contributions of each team member**
+**Contributions of each team member**
 
 Sahit Jain-
 1.	Noisy logic Agent
@@ -41,4 +41,4 @@ Nabeel Khan-
 
 
 
-5. **Instructions to run code from scratch**
+**Instructions to run code from scratch**
