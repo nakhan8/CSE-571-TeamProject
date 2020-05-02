@@ -18,6 +18,8 @@ Reboot
 
 Topic 5: Reinforcement Learning agent in Wumpus world
 
+Github Link: https://github.com/nakhan8/CSE-571-TeamProject/edit/master
+
 **Contributions of each team member**
 
 Sahit Jain-
@@ -78,5 +80,5 @@ bullets indicate the number of bullets that agent possesses
 
 Noise: The agent goes Forward 90% of the times And takes either a left or a right turn 5% of the times respectively.
 
-Github Link: https://github.com/nakhan8/CSE-571-TeamProject/edit/master
+
 
