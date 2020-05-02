@@ -21,7 +21,7 @@ Topic 5: Reinforcement Learning agent in Wumpus world
 Github Link: https://github.com/nakhan8/CSE-571-TeamProject
 
 
-** Project Structure**
+**Project Structure**
 
 Src/: Code for project
 
