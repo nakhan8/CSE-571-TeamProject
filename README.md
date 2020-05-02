@@ -15,7 +15,7 @@ Reboot
 
 **Topic chosen**
 
-5. Reinforcement Learning agent in Wumpus world
+Topic 5. Reinforcement Learning agent in Wumpus world
 
 **Contributions of each team member**
 
