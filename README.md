@@ -48,10 +48,12 @@ The Hybrid Logic agents reuses most of the code from "The Hunt The Wumpus AI pro
 
 
 Knowledge base implented in: "wumpus_kb.py"
+
 Planning: "wumpus_planner.py"
+
 Noise: "wumpus_agent.py"
-Prerequisites: 
-Python Installed 
+
+Prerequisites: Python Installed 
 
 1. Dowload the Project.
 2. Extract the project
