@@ -22,9 +22,9 @@ from wumpus_kb import *
 from wumpus_planners import *
 import minisat as msat
 from time import clock
+import random
 import sys
 
-import pdb
 
 #-------------------------------------------------------------------------------
 
@@ -62,7 +62,6 @@ class PropKB_SAT(PropKB):
 
     def ask(self, query):
         """ Assumes query is a single positive proposition """
-        # pdb.set_trace()
         if isinstance(query,str):
             query = expr(query)
         sT = minisat(self.clauses, None, variable=query, value=True, verbose=False)
@@ -308,11 +307,9 @@ class HybridWumpusAgent(Explorer):
     def infer_and_set_belief_location(self):
         if self.verbose: start_time = clock()
         self.belief_location = None
-        # pdb.set_trace()
         for x in range(1,self.width+1):
             for y in range(1,self.height+1):
                 query = expr(state_loc_str(x,y,self.time))
-                # pdb.set_trace()
                 result = self.kb.ask(query)
                 if result:
                     self.belief_location = loc_proposition_to_tuple('{0}'.format(query))
@@ -477,5 +474,13 @@ class HybridWumpusAgent(Explorer):
             self.kb.axioms.append(add_time_stamp(action, self.time))
         
         self.time += 1 # advance the agent's time
-        return action
 
+        if action == "Forward":
+            if random.random() < 0.90:
+                return "Forward"
+            elif 0.90 < random.random() < 0.95:
+                return "TurnLeft"
+            else:
+                return "TurnRight"
+        else:
+            return action
