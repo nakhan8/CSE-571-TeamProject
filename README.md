@@ -22,8 +22,11 @@ Github Link: https://github.com/nakhan8/CSE-571-TeamProject
 
 
 ** Project Structure**
+
 Src/: Code for project
+
 Doc/: Report for project
+
 Readme.md: Information about project
 
 
