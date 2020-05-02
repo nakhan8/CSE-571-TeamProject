@@ -20,6 +20,13 @@ Topic 5: Reinforcement Learning agent in Wumpus world
 
 Github Link: https://github.com/nakhan8/CSE-571-TeamProject
 
+
+** Project Structure**
+Src/: Code for project
+Doc/: Report for project
+Readme.md: Information about project
+
+
 **Contributions of each team member**
 
 Sahit Jain-
@@ -41,7 +48,6 @@ Nabeel Khan-
 1.	Exploring and familiarizing with repository
 2.	Create basic project structure for design
 3.	Created report for the submission
-
 
 
 **Instructions to run code from scratch**
