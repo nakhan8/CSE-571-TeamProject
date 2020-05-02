@@ -59,6 +59,21 @@ Prerequisites: Python Installed
 2. Extract the project
 3. Run the project.
 4. Execution command:python environment.py --ngames 150 --niter 40 --gridsize 4 4 --numwumpus 1 --numholes 3 --bullets 3
+ 
+None of the arguments are compulsory. 
+
+ngames indicates are number of games
+
+niter indicates number of iterations
+
+gridsize 4 4 indicates rowsize columnsize
+
+numwumpus indicates of Wumpus in grid
+
+numholes indicate number of holes in the grid
+
+bullets indicate the number of bullets that agent possesses
+
 5. For executing the Hybrid Logic Agent in a noisy action model. Just run "python wumpus.py -y"
 
 Noise: The agent goes Forward 90% of the times And takes either a left or a right turn 5% of the times respectively.
